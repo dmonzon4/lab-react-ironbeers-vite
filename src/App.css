@@ -1,0 +1,62 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 15px;
+  background-color: rgba(39, 174, 245, 1);
+  margin-bottom: 20px;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  /* padding-left: 15px; */
+}
+
+.nav-link img {
+  margin-bottom: 10px;
+}
+
+p {
+  position: relative;
+  color: gray;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+/* -----------------------AllBeers---------------------------- */
+.all-beers {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.all-beers-direction {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.horizontal-line {
+  align-self: center;
+}
