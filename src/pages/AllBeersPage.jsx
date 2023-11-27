@@ -38,7 +38,7 @@ export default function AllBeersPage() {
               style={{ width: "100px" }}
             />
             <div className="all-beers-direction">
-              <Link to={`/beers/${beer.id}`}>
+              <Link to={`/beers/${beer._id}`}>
                 <h3>{beer.name}</h3>
               </Link>
               <p>{beer.tagline}</p>
